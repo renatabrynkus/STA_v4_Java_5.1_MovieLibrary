@@ -23,6 +23,7 @@ public class UserInputHandler {
     static int[] enterDates() {
         int[] dates = new int[2];
         Scanner scanner = new Scanner(System.in);
+
         System.out.println("Please enter date no 1:");
         dates[0] = scanner.nextInt();
         System.out.println("Please enter date no 2:");
