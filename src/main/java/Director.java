@@ -3,11 +3,6 @@ public class Director {
     private String firstName;
     private String lastName;
 
-    Director(String firstName, String lastName) {
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-
     Director() {
     }
 

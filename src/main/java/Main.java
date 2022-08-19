@@ -10,7 +10,8 @@ public class Main {
         try {
             ObjectMapper objectMapper = new ObjectMapper();
 
-            MoviesLibrary moviesLibrary = objectMapper.readValue(new File("src/main/resources/MoviesLibrary.json"), MoviesLibrary.class);
+            MoviesLibrary moviesLibrary = objectMapper.readValue(new File("src/main/resources/MoviesLibrary.json"),
+                    MoviesLibrary.class);
 
             switch (selectedOption) {
                 case 1 -> System.out.println(moviesLibrary.getMoviesBetweenDates(UserInputHandler.enterDates()));

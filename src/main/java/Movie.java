@@ -8,14 +8,6 @@ public class Movie {
     private String genre;
     private ArrayList<Actor> actors;
 
-    Movie(String title, int year, Director director, String genre, ArrayList<Actor> actors) {
-        this.title = title;
-        this.year = year;
-        this.director = director;
-        this.genre = genre;
-        this.actors = actors;
-    }
-
     Movie() {
     }
 
