@@ -3,6 +3,11 @@ public class Actor {
     private String firstName;
     private String lastName;
 
+    Actor(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
     Actor() {
     }
 

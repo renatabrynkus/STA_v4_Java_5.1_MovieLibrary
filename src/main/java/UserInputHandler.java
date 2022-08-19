@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class UserInputHandler {
@@ -28,5 +29,19 @@ public class UserInputHandler {
         dates[1] = scanner.nextInt();
 
         return dates;
+    }
+
+    static ArrayList<String> enterActor() {
+        ArrayList<String> actorFirstLastName = new ArrayList<>();
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Please enter first name:");
+        String firstName = scanner.nextLine();
+        actorFirstLastName.add(firstName);
+        System.out.println("Please enter last name:");
+        String lastName = scanner.nextLine();
+        actorFirstLastName.add(lastName);
+
+        return actorFirstLastName;
     }
 }

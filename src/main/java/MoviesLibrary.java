@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.Random;
-import java.util.Scanner;
 
 public class MoviesLibrary {
 
@@ -13,7 +12,9 @@ public class MoviesLibrary {
         return movies;
     }
 
-    public int getSize() { return movies.size(); }
+    public int getSize() {
+        return movies.size();
+    }
 
     ArrayList<String> getMoviesBetweenDates(int[] dates) {
         ArrayList<String> moviesBetweenDates = new ArrayList<>();
@@ -29,17 +30,12 @@ public class MoviesLibrary {
         return movies.get(new Random().nextInt(bound));
     }
 
-    ArrayList<String> getMoviesWithActor() {
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Please enter first name:");
-        String firstName = scanner.nextLine();
-        System.out.println("Please enter last name:");
-        String lastName = scanner.nextLine();
-
+    ArrayList<String> getMoviesWithActor(ArrayList<String> actorFirstLastName) {
         ArrayList<String> moviesWithActor = new ArrayList<>();
         for (Movie movie : movies) {
             for (Actor actor : movie.getActors()) {
-                if (firstName.equalsIgnoreCase(actor.getFirstName()) && (lastName.equalsIgnoreCase(actor.getLastName()))) {
+                if (actorFirstLastName.get(0).equalsIgnoreCase(actor.getFirstName()) &&
+                        (actorFirstLastName.get(1).equalsIgnoreCase(actor.getLastName()))) {
                     moviesWithActor.add(movie.getTitle());
                 }
             }

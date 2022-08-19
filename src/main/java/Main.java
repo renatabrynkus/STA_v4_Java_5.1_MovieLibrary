@@ -1,4 +1,5 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
+
 import java.io.File;
 
 public class Main {
@@ -15,7 +16,7 @@ public class Main {
             switch (selectedOption) {
                 case 1 -> System.out.println(moviesLibrary.getMoviesBetweenDates(UserInputHandler.enterDates()));
                 case 2 -> System.out.println(moviesLibrary.getInformationAboutRandomMovie(moviesLibrary.getSize()));
-                case 3 -> System.out.println(moviesLibrary.getMoviesWithActor());
+                case 3 -> System.out.println(moviesLibrary.getMoviesWithActor(UserInputHandler.enterActor()));
                 default -> System.exit(0);
             }
         } catch (final Exception e) {
