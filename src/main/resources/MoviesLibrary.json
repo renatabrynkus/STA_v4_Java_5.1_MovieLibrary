@@ -1,192 +1,193 @@
-{"movies": [
-	{
-	"title" : "Bullet Train",
-	"year" : 2022,
-	"director" : {
-		"firstName" : "David",
-		"lastName" : "Leitch"
-		},
-	"genre" : "action",
-	"actors" : [
-		{
-		"firstName" : "Brad",
-		"lastName" : "Pitt"
-		},
-		{
-		"firstName": "Joey",
-		"lastName": "King"
-		},
-		{
-		"firstName": "Andrew",
-		"lastName": "Koji"
-		},
-		{
-		"firstName": "Brian Tyree",
-		"lastName": "Henry"
-		}
-		]
-	},
-	{
-	"title" : "Once Upon a Time... in Hollywood",
-	"year" : 2019,
-	"director" : {
-		"firstName": "Quentin",
-		"lastName": "Tarantino"
-		},
-	"genre" : "drama/crime",
-	"actors" : [
-		{
-		"firstName": "Leonardo",
-		"lastName": "DiCaprio"
-		},
-		{
-		"firstName": "Brad",
-		"lastName": "Pitt"
-		},
-		{
-		"firstName": "Margot",
-		"lastName": "Robbie"
-		},
-		{
-		"firstName": "Al",
-		"lastName": "Pacino"
-		}
-		]
-	},
-	{
-	"title" : "Interview with the Vampire: The Vampire Chronicles",
-	"year" : 1994,
-	"director" : {
-		"firstName": "Neil",
-		"lastName": "Jordan"
-		},
-	"genre" : "drama/horror",
-	"actors" : [
-		{
-		"firstName": "Brad",
-		"lastName": "Pitt"
-		},
-		{
-		"firstName": "Tom",
-		"lastName": "Cruise"
-		},
-		{
-		"firstName": "Antonio",
-		"lastName": "Banderas"
-		},
-		{
-		"firstName": "Kirsten",
-		"lastName": "Dunst"
-		}
-		]
-	},
-	{
-	"title" : "Fight Club",
-	"year" : 1999,
-	"director" : {
-		"firstName": "David",
-		"lastName": "Fincher"
-		},
-	"genre" : "thriller",
-	"actors" : [
-		{
-		"firstName": "Edward",
-		"lastName": "Norton"
-		},
-		{
-		"firstName": "Brad",
-		"lastName": "Pitt"
-		},
-		{
-		"firstName": "Helena",
-		"lastName": "Bonham Carter"
-		},
-		{
-		"firstName": "Jared",
-		"lastName": "Leto"
-		}
-		]
-	},
-	{
-	"title" : "The Curious Case of Benjamin Button",
-	"year" : 2008,
-	"director" : {
-		"firstName": "David",
-		"lastName": "Fincher"
-		},
-	"genre" : "fantasy",
-	"actors" : [
-		{
-		"firstName": "Brad",
-		"lastName": "Pitt"
-		},
-		{
-		"firstName": "Cate",
-		"lastName": "Blanchett"
-		},
-		{
-		"firstName": "Tilda",
-		"lastName": "Swinton"
-		},
-		{
-		"firstName": "Jason",
-		"lastName": "Flemyng"
-		}
-		]
-	},
-	{
-	"title" : "The Big Short",
-	"year" : 2015,
-	"director" : {
-		"firstName": "Adam",
-		"lastName": "McKay"
-		},
-	"genre" : "action movie",
-	"actors" : [
-		{
-		"firstName": "Christian",
-		"lastName": "Bale"
-		},
-		{
-		"firstName": "Steve",
-		"lastName": "Carell"
-		},
-		{
-		"firstName": "Ryan",
-		"lastName": "Gosling"
-		},
-		{
-		"firstName": "Brad",
-		"lastName": "Pitt"
-		}
-		]
-	},
-	{
-	"title" : "Twelve Monkeys",
-	"year" : 1995,
-	"director" : {
-		"firstName": "Terry",
-		"lastName": "Gilliam"
-		},
-	"genre" : "action movie",
-	"actors" : [
-		{
-		"firstName": "Bruce",
-		"lastName": "Willis"
-		},
-		{
-		"firstName": "Madeleine",
-		"lastName": "Stowe"
-		},
-		{
-		"firstName": "Brad",
-		"lastName": "Pitt"
-		},
-		{
-		"firstName": "Christopher",
-		"lastName": "Plummer"
-		}
-		]
-	}
-]
+{
+  "movies": [
+    {
+      "title": "Bullet Train",
+      "year": 2022,
+      "director": {
+        "firstName": "David",
+        "lastName": "Leitch"
+      },
+      "genre": "action",
+      "actors": [
+        {
+          "firstName": "Brad",
+          "lastName": "Pitt"
+        },
+        {
+          "firstName": "Joey",
+          "lastName": "King"
+        },
+        {
+          "firstName": "Andrew",
+          "lastName": "Koji"
+        },
+        {
+          "firstName": "Brian Tyree",
+          "lastName": "Henry"
+        }
+      ]
+    },
+    {
+      "title": "Once Upon a Time... in Hollywood",
+      "year": 2019,
+      "director": {
+        "firstName": "Quentin",
+        "lastName": "Tarantino"
+      },
+      "genre": "drama/crime",
+      "actors": [
+        {
+          "firstName": "Leonardo",
+          "lastName": "DiCaprio"
+        },
+        {
+          "firstName": "Brad",
+          "lastName": "Pitt"
+        },
+        {
+          "firstName": "Margot",
+          "lastName": "Robbie"
+        },
+        {
+          "firstName": "Al",
+          "lastName": "Pacino"
+        }
+      ]
+    },
+    {
+      "title": "Interview with the Vampire: The Vampire Chronicles",
+      "year": 1994,
+      "director": {
+        "firstName": "Neil",
+        "lastName": "Jordan"
+      },
+      "genre": "drama/horror",
+      "actors": [
+        {
+          "firstName": "Brad",
+          "lastName": "Pitt"
+        },
+        {
+          "firstName": "Tom",
+          "lastName": "Cruise"
+        },
+        {
+          "firstName": "Antonio",
+          "lastName": "Banderas"
+        },
+        {
+          "firstName": "Kirsten",
+          "lastName": "Dunst"
+        }
+      ]
+    },
+    {
+      "title": "Fight Club",
+      "year": 1999,
+      "director": {
+        "firstName": "David",
+        "lastName": "Fincher"
+      },
+      "genre": "thriller",
+      "actors": [
+        {
+          "firstName": "Edward",
+          "lastName": "Norton"
+        },
+        {
+          "firstName": "Brad",
+          "lastName": "Pitt"
+        },
+        {
+          "firstName": "Helena",
+          "lastName": "Bonham Carter"
+        },
+        {
+          "firstName": "Jared",
+          "lastName": "Leto"
+        }
+      ]
+    },
+    {
+      "title": "The Curious Case of Benjamin Button",
+      "year": 2008,
+      "director": {
+        "firstName": "David",
+        "lastName": "Fincher"
+      },
+      "genre": "fantasy",
+      "actors": [
+        {
+          "firstName": "Brad",
+          "lastName": "Pitt"
+        },
+        {
+          "firstName": "Cate",
+          "lastName": "Blanchett"
+        },
+        {
+          "firstName": "Tilda",
+          "lastName": "Swinton"
+        },
+        {
+          "firstName": "Jason",
+          "lastName": "Flemyng"
+        }
+      ]
+    },
+    {
+      "title": "The Big Short",
+      "year": 2015,
+      "director": {
+        "firstName": "Adam",
+        "lastName": "McKay"
+      },
+      "genre": "action movie",
+      "actors": [
+        {
+          "firstName": "Christian",
+          "lastName": "Bale"
+        },
+        {
+          "firstName": "Steve",
+          "lastName": "Carell"
+        },
+        {
+          "firstName": "Ryan",
+          "lastName": "Gosling"
+        },
+        {
+          "firstName": "Brad",
+          "lastName": "Pitt"
+        }
+      ]
+    },
+    {
+      "title": "Twelve Monkeys",
+      "year": 1995,
+      "director": {
+        "firstName": "Terry",
+        "lastName": "Gilliam"
+      },
+      "genre": "action movie",
+      "actors": [
+        {
+          "firstName": "Bruce",
+          "lastName": "Willis"
+        },
+        {
+          "firstName": "Madeleine",
+          "lastName": "Stowe"
+        },
+        {
+          "firstName": "Brad",
+          "lastName": "Pitt"
+        },
+        {
+          "firstName": "Christopher",
+          "lastName": "Plummer"
+        }
+      ]
+    }
+  ]
 }
