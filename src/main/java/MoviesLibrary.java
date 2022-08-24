@@ -30,12 +30,12 @@ public class MoviesLibrary {
         return movies.get(new Random().nextInt(bound));
     }
 
-    ArrayList<String> getMoviesWithActor(ArrayList<String> actorFirstLastName) {
+    ArrayList<String> getMoviesWithActor(Actor Actor) {
         ArrayList<String> moviesWithActor = new ArrayList<>();
         for (Movie movie : movies) {
             for (Actor actor : movie.getActors()) {
-                if (actorFirstLastName.get(0).equalsIgnoreCase(actor.getFirstName()) &&
-                        (actorFirstLastName.get(1).equalsIgnoreCase(actor.getLastName()))) {
+                if (Actor.getFirstName().equalsIgnoreCase(actor.getFirstName()) &&
+                        (Actor.getLastName().equalsIgnoreCase(actor.getLastName()))) {
                     moviesWithActor.add(movie.getTitle());
                 }
             }

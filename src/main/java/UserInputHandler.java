@@ -32,17 +32,13 @@ public class UserInputHandler {
         return dates;
     }
 
-    static ArrayList<String> enterActor() {
-        ArrayList<String> actorFirstLastName = new ArrayList<>();
-
+    static Actor enterActor() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter first name:");
         String firstName = scanner.nextLine();
-        actorFirstLastName.add(firstName);
         System.out.println("Please enter last name:");
         String lastName = scanner.nextLine();
-        actorFirstLastName.add(lastName);
 
-        return actorFirstLastName;
+        return new Actor(firstName, lastName);
     }
 }
